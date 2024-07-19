@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-19T08:54:40 IST" name="Suite" finished-at="2024-07-19T08:55:43 IST" duration-ms="63451">
+    <groups>
+      <group name="purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:com.naren.automation.seleniumframeworkdesign.SubmitOrderTest@359df09a]" name="submitOrder" class="com.naren.automation.seleniumframeworkdesign.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-07-19T08:54:40 IST" name="Submit OrderTest" finished-at="2024-07-19T08:55:21 IST" duration-ms="41611">
+      <class name="com.naren.automation.seleniumframeworkdesign.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.SubmitOrderTest@359df09a]" started-at="2024-07-19T08:54:40 IST" name="launchApplication" finished-at="2024-07-19T08:54:43 IST" duration-ms="3533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:com.naren.automation.seleniumframeworkdesign.SubmitOrderTest@359df09a]" started-at="2024-07-19T08:54:43 IST" name="submitOrder" data-provider="getData" finished-at="2024-07-19T08:54:58 IST" duration-ms="14677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Naren@1997, productName=ZARA COAT 3, username=narendarmekala.1997@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.SubmitOrderTest@359df09a]" started-at="2024-07-19T08:54:58 IST" name="tearDown" finished-at="2024-07-19T08:54:59 IST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.SubmitOrderTest@359df09a]" started-at="2024-07-19T08:54:59 IST" name="launchApplication" finished-at="2024-07-19T08:55:02 IST" duration-ms="2541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:com.naren.automation.seleniumframeworkdesign.SubmitOrderTest@359df09a]" started-at="2024-07-19T08:55:02 IST" name="submitOrder" data-provider="getData" finished-at="2024-07-19T08:55:17 IST" duration-ms="14878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Naren@1997, productName=ZARA COAT 3, username=narendarmekala.1997@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.SubmitOrderTest@359df09a]" started-at="2024-07-19T08:55:17 IST" name="tearDown" finished-at="2024-07-19T08:55:18 IST" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.SubmitOrderTest@359df09a]" started-at="2024-07-19T08:55:18 IST" name="launchApplication" finished-at="2024-07-19T08:55:20 IST" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.SubmitOrderTest@359df09a]" started-at="2024-07-19T08:55:20 IST" name="OrderHistoryTest" finished-at="2024-07-19T08:55:21 IST" depends-on-methods="com.naren.automation.seleniumframeworkdesign.SubmitOrderTest.submitOrder" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.SubmitOrderTest@359df09a]" started-at="2024-07-19T08:55:21 IST" name="tearDown" finished-at="2024-07-19T08:55:21 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naren.automation.seleniumframeworkdesign.SubmitOrderTest -->
+    </test> <!-- Submit OrderTest -->
+    <test started-at="2024-07-19T08:55:22 IST" name="Error Validation OrderTest" finished-at="2024-07-19T08:55:43 IST" duration-ms="21210">
+      <class name="com.naren.automation.seleniumframeworkdesign.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.ErrorValidation@5c86a017]" started-at="2024-07-19T08:55:22 IST" name="launchApplication" finished-at="2024-07-19T08:55:25 IST" duration-ms="2546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.ErrorValidation@5c86a017]" started-at="2024-07-19T08:55:25 IST" name="productErrorValidation" finished-at="2024-07-19T08:55:38 IST" duration-ms="13545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.ErrorValidation@5c86a017]" started-at="2024-07-19T08:55:38 IST" name="tearDown" finished-at="2024-07-19T08:55:39 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.ErrorValidation@5c86a017]" started-at="2024-07-19T08:55:39 IST" name="launchApplication" finished-at="2024-07-19T08:55:42 IST" duration-ms="2592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.ErrorValidation@5c86a017]" started-at="2024-07-19T08:55:42 IST" name="submitOrder" finished-at="2024-07-19T08:55:43 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.naren.automation.seleniumframeworkdesign.ErrorValidation@5c86a017]" started-at="2024-07-19T08:55:43 IST" name="tearDown" finished-at="2024-07-19T08:55:43 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.naren.automation.seleniumframeworkdesign.ErrorValidation -->
+    </test> <!-- Error Validation OrderTest -->
+  </suite> <!-- Suite -->
+</testng-results>
