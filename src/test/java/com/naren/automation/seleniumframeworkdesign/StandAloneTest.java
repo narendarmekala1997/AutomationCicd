@@ -18,6 +18,7 @@ public class StandAloneTest {
 
 	public static void main(String[] args) {
 
+		//adding comments for demo
 		String productName = "ZARA COAT 3";
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
